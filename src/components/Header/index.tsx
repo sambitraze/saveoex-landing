@@ -263,7 +263,7 @@ const Header = () => {
                 <button
                   aria-label="theme toggler"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                  className="flex h-8 w-8 items-center justify-center text-body-color duration-300 dark:text-white"
+                  className="flex h-8 w-8 items-center justify-center text-body-color duration-300 dark:text-white mr-4"
                 >
                   <span>
                     <svg
@@ -286,7 +286,7 @@ const Header = () => {
                   </span>
                 </button>
 
-                {session?.user ? (
+                {/* {session?.user ? (
                   <>
                     <p
                       className={`loginBtn px-7 py-3 text-base font-medium ${
@@ -351,7 +351,18 @@ const Header = () => {
                       </>
                     )}
                   </>
-                )}
+                )} */}
+
+                <Link
+                  href="/signup"
+                  className={`rounded-lg px-6 py-3 text-base font-medium text-white duration-300 ease-in-out ${
+                    sticky
+                      ? "bg-primary hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
+                      : "bg-white/10 hover:bg-white/20"
+                  }`}
+                >
+                  Vendor Admin
+                </Link>
               </div>
             </div>
           </div>
