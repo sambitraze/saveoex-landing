@@ -7,14 +7,12 @@ export const metadata: Metadata = {
   description: "This is contact page description",
 };
 
-const ContactPage = () => {
+const TestimonialPage = () => {
   return (
     <>
-      <Breadcrumb pageName="FAQ Page" />
-
       <Testimonials />
     </>
   );
 };
 
-export default ContactPage;
+export default TestimonialPage;

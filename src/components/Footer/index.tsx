@@ -132,6 +132,14 @@ const Footer = () => {
                     Testimonial
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/pricing"
+                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+                  >
+                    Pricing
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -225,34 +233,26 @@ const Footer = () => {
               <ul>
                 <li>
                   <a
-                    href="/#faq"
+                    href="/faq"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     FAQ
                   </a>
                 </li>
-                {/* <li>
+                <li>
                   <a
-                    href="/#faq"
+                    href="/howitworks"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Blogs
+                    How Saveoex Works
                   </a>
-                </li> */}
+                </li>
                 <li>
                   <a
                     href="/contact"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Contact
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/pricing"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                  >
-                    Pricing
                   </a>
                 </li>
               </ul>

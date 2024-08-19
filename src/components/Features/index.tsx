@@ -7,9 +7,9 @@ const Features = () => {
     <section className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
       <div className="container">
         <SectionTitle
-          subtitle="Features"
-          title="Main Features Of Play"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          subtitle="How To"
+          title="How Saveoex Works"
+          paragraph="Saveoex simplifies your savings journey with a seamless, user-friendly experience. Here’s how it works:"
         />
 
         <div className="-mx-4 mt-12 flex flex-wrap lg:mt-20">

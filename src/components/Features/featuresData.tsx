@@ -17,8 +17,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Free and Open-Source",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Sign Up",
+    paragraph:
+      "Choose a subscription plan that fits your lifestyle. With our affordable rates, saving has never been easier!",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -38,8 +39,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Modern Design",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Explore Deals",
+    paragraph:
+      "Discover discounts from local businesses and national brands. Our curated list ensures you always get the best offers.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -91,8 +93,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "SaaS Starter Kit",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Start Saving",
+    paragraph:
+      "Show your Saveoex pass at participating locations and enjoy instant savings. It’s that simple!",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -124,8 +127,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "All Essential Integrations",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Repeat & Enjoy",
+    paragraph:
+      "With unlimited access to discounts, you can save every day, on everything you love.",
     btn: "Learn More",
     btnLink: "/#",
   },
