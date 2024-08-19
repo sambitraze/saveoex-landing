@@ -5,29 +5,29 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Sabo Masties",
-    designation: "Founder @ Rolex",
+    name: "Shreyansh",
+    designation: "user",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/author-01.png",
+      "Saveoex has completely changed the way I shop! I’m saving money on everything, from my morning coffee to weekend getaways.",
+    image: "/images/testimonials/default.jpeg",
     star: 5,
   },
   {
-    id: 2,
-    name: "Margin Gesmu",
-    designation: "Founder @ UI Hunter",
+    id: 1,
+    name: "Anusha",
+    designation: "user",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/author-02.png",
+      "I love how easy it is to use. No hassle, just savings. Highly recommend!",
+    image: "/images/testimonials/default.jpeg",
     star: 5,
   },
   {
-    id: 3,
-    name: "William Smith",
-    designation: "Founder @ Trorex",
+    id: 1,
+    name: "Dhirendra",
+    designation: "user",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/author-03.png",
+      "The best part about Saveoex? The variety of deals! Whether I’m shopping locally or traveling, there’s always a discount waiting for me.",
+    image: "/images/testimonials/default.jpeg",
     star: 5,
   },
 ];
@@ -38,13 +38,13 @@ const Testimonials = () => {
       <div className="container px-4">
         <SectionTitle
           subtitle="Testimonials"
-          title="What our Client Say"
+          title="What our Users Say"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           width="640px"
           center
         />
 
-        <div className="mt-[60px] flex flex-wrap lg:mt-20 gap-y-8">
+        <div className="mt-[60px] flex flex-wrap gap-y-8 lg:mt-20">
           {testimonialData.map((testimonial, i) => (
             <SingleTestimonial key={i} testimonial={testimonial} />
           ))}

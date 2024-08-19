@@ -19,22 +19,22 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
+  // const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
 
   return (
     <main>
       <ScrollUp />
       <Hero />
-      <Features />
+      {/* <Features /> */}
       <About />
       <CallToAction />
       <Pricing />
       <Testimonials />
       <Faq />
       <Team />
-      <HomeBlogSection posts={posts} />
+      {/* <HomeBlogSection posts={posts} /> */}
       <Contact />
-      <Clients />
+      {/* <Clients /> */}
     </main>
   );
 }

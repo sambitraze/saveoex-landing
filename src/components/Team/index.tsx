@@ -5,40 +5,40 @@ import SingleTeam from "./SingleTeam";
 const teamData: TeamType[] = [
   {
     id: 1,
-    name: "Adveen Desuza",
-    designation: "UI Designer",
-    image: "/images/team/team-01.png",
-    facebookLink: "/#",
+    name: "Sambit",
+    designation: "CTO & Co Founder",
+    image: "/images/team/sambit.png",
+    linkedinLink: "https://www.linkedin.com/in/sambitraze/",
     twitterLink: "/#",
     instagramLink: "/#",
   },
-  {
-    id: 2,
-    name: "Jezmin uniya",
-    designation: "Product Designer",
-    image: "/images/team/team-02.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
-  },
-  {
-    id: 3,
-    name: "Andrieo Gloree",
-    designation: "App Developer",
-    image: "/images/team/team-03.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
-  },
-  {
-    id: 4,
-    name: "Jackie Sanders",
-    designation: "Content Writer",
-    image: "/images/team/team-04.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
-  },
+  // {
+  //   id: 2,
+  //   name: "Jezmin uniya",
+  //   designation: "Product Designer",
+  //   image: "/images/team/team-02.png",
+  //   facebookLink: "/#",
+  //   twitterLink: "/#",
+  //   instagramLink: "/#",
+  // },
+  // {
+  //   id: 3,
+  //   name: "Andrieo Gloree",
+  //   designation: "App Developer",
+  //   image: "/images/team/team-03.png",
+  //   facebookLink: "/#",
+  //   twitterLink: "/#",
+  //   instagramLink: "/#",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Jackie Sanders",
+  //   designation: "Content Writer",
+  //   image: "/images/team/team-04.png",
+  //   facebookLink: "/#",
+  //   twitterLink: "/#",
+  //   instagramLink: "/#",
+  // },
 ];
 
 const Team = () => {
@@ -52,7 +52,7 @@ const Team = () => {
           <SectionTitle
             subtitle="Our Team"
             title="Meet Our Team"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Our team is a dynamic group of passionate professionals, each bringing unique expertise and creativity to the table."
             width="640px"
             center
           />

@@ -21,8 +21,8 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-8 max-w-[270px] text-base text-gray-7">
-                We create digital experiences for brands and companies by using
-                technology.
+                Unlock Endless Savings with Saveoex! Starting at just Rs 19 per
+                month.
               </p>
               <div className="-mx-3 flex items-center">
                 <a
@@ -108,17 +108,17 @@ const Footer = () => {
                     Home
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="/#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Features
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
-                    href="/#"
+                    href="/about"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     About
@@ -126,7 +126,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/#"
+                    href="/testimonial"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Testimonial
@@ -135,7 +135,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
+          {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
                 Features
@@ -216,7 +216,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
@@ -225,34 +225,34 @@ const Footer = () => {
               <ul>
                 <li>
                   <a
-                    href="/#"
+                    href="/#faq"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     FAQ
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
-                    href="/#"
+                    href="/#faq"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Blogs
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
-                    href="/#"
+                    href="/contact"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Support
+                    Contact
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/#"
+                    href="/pricing"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    About
+                    Pricing
                   </a>
                 </li>
               </ul>
@@ -288,7 +288,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full px-4 md:w-1/3 lg:w-1/2">
+            {/* <div className="w-full px-4 md:w-1/3 lg:w-1/2">
               <div className="my-1 flex justify-center md:justify-end">
                 <p className="text-base text-gray-7">
                   Designed and Developed by{" "}
@@ -302,7 +302,7 @@ const Footer = () => {
                   </a>
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -12,17 +12,18 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                  Brilliant Toolkit to Build Next.js SaaS Websites.
+                  Empowering You to Live More, Spend Less
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  The main thrust is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel discussions and roundtables led by subject
-                  matter experts.
+                  At Saveoex, we believe that everyone deserves access to the
+                  best deals without breaking the bank balance and your hard
+                  earn money. Our mission is to revolutionize the way you save
+                  by providing a simple, affordable subscription that unlocks a
+                  world of discounts.
                   <br /> <br />
-                  The main thrust is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel.
+                  We&apos;re more than just a discount platform &hyphen;
+                  we&apos;re your partner in living a fuller, richer life. Join
+                  us, and let&apos;s save together!
                 </p>
 
                 <a
@@ -68,7 +69,7 @@ const About = () => {
                         We have
                       </span>
                       <span className="block text-base font-medium text-white text-opacity-70">
-                        Years of experience
+                        No of Vendors
                       </span>
                     </div>
                     <div>

@@ -2,18 +2,18 @@ import { TeamType } from "@/types/team";
 import Image from "next/image";
 
 const SingleTeam = ({ team }: { team: TeamType }) => {
-  const { image, name, designation, facebookLink, twitterLink, instagramLink } =
+  const { image, name, designation, linkedinLink, twitterLink, instagramLink } =
     team;
   return (
     <div className="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
       <div className="group mb-8 rounded-xl bg-white px-5 pb-10 pt-12 shadow-testimonial dark:bg-dark dark:shadow-none">
-        <div className="relative z-10 mx-auto mb-5 h-[120px] w-[120px]">
+        <div className="relative z-10 mx-auto mb-5 h-[145px] w-[145px]">
           <Image
             src={image}
             alt={name}
             className="w-full rounded-full"
-            width={120}
-            height={120}
+            width={145}
+            height={145}
           />
           <span className="absolute bottom-0 left-0 -z-10 h-10 w-10 rounded-full bg-secondary opacity-0 transition-all group-hover:opacity-100"></span>
           <span className="absolute right-0 top-0 -z-10 opacity-0 transition-all group-hover:opacity-100">
@@ -247,24 +247,20 @@ const SingleTeam = ({ team }: { team: TeamType }) => {
           <div className="flex items-center justify-center gap-5">
             <a
               aria-label="social link"
-              href={facebookLink}
+              href={linkedinLink}
+              target="_blank"
               className="text-dark-6 hover:text-primary"
             >
               <svg
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="fill-current"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
               >
-                <path
-                  d="M13.3315 7.25625H11.7565H11.194V6.69375V4.95V4.3875H11.7565H12.9377C13.2471 4.3875 13.5002 4.1625 13.5002 3.825V0.84375C13.5002 0.534375 13.2752 0.28125 12.9377 0.28125H10.8846C8.66272 0.28125 7.11584 1.85625 7.11584 4.19062V6.6375V7.2H6.55334H4.64084C4.24709 7.2 3.88147 7.50937 3.88147 7.95937V9.98438C3.88147 10.3781 4.19084 10.7438 4.64084 10.7438H6.49709H7.05959V11.3063V16.9594C7.05959 17.3531 7.36897 17.7188 7.81897 17.7188H10.4627C10.6315 17.7188 10.7721 17.6344 10.8846 17.5219C10.9971 17.4094 11.0815 17.2125 11.0815 17.0437V11.3344V10.7719H11.6721H12.9377C13.3033 10.7719 13.5846 10.5469 13.6408 10.2094V10.1813V10.1531L14.0346 8.2125C14.0627 8.01562 14.0346 7.79063 13.8658 7.56562C13.8096 7.425 13.5565 7.28437 13.3315 7.25625Z"
-                  fill=""
-                />
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
             </a>
-            <a
+            {/* <a
               aria-label="social link"
               href={twitterLink}
               className="text-dark-6 hover:text-primary"
@@ -309,7 +305,7 @@ const SingleTeam = ({ team }: { team: TeamType }) => {
                   fill=""
                 />
               </svg>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
