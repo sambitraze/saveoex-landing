@@ -263,7 +263,7 @@ const Header = () => {
                 <button
                   aria-label="theme toggler"
                   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                  className="flex h-8 w-8 items-center justify-center text-body-color duration-300 dark:text-white mr-4"
+                  className="mr-4 flex h-8 w-8 items-center justify-center text-body-color duration-300 dark:text-white"
                 >
                   <span>
                     <svg
@@ -354,7 +354,7 @@ const Header = () => {
                 )} */}
 
                 <Link
-                  href="/signup"
+                  href="http://dashboard.saveoex.com"
                   className={`rounded-lg px-6 py-3 text-base font-medium text-white duration-300 ease-in-out ${
                     sticky
                       ? "bg-primary hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
