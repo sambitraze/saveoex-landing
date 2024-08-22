@@ -353,7 +353,7 @@ const Header = () => {
                   </>
                 )} */}
 
-                <Link
+                {/* <Link
                   href="http://dashboard.saveoex.com"
                   className={`rounded-lg px-6 py-3 text-base font-medium text-white duration-300 ease-in-out ${
                     sticky
@@ -362,7 +362,7 @@ const Header = () => {
                   }`}
                 >
                   Vendor Admin
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

@@ -16,7 +16,7 @@ export const pricingData: Price[] = [
   // },
   {
     id: "1",
-    unit_amount: 19 * 100,
+    unit_amount: 29 * 100,
     nickname: "Basic",
     offers: [
       "All Vendor offers",

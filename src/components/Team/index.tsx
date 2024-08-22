@@ -6,9 +6,9 @@ const teamData: TeamType[] = [
   {
     id: 1,
     name: "Kunal",
-    designation: "CEO",
+    designation: "CEO & Founder",
     image: "/images/team/kunal.jpg",
-    linkedinLink: "/#",
+    linkedinLink: "https://www.linkedin.com/in/kishor-kunal-150819230/",
     twitterLink: "/#",
     instagramLink: "/#",
   },

@@ -4,7 +4,7 @@ import Team from "@/components/Team";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Saveox",
+  title: "About Us | Saveoex",
   description: "This is About page description",
 };
 

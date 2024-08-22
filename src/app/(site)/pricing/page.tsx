@@ -4,7 +4,7 @@ import Pricing from "@/components/Pricing";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pricing Page | Saveox",
+  title: "Pricing Page | Saveoex",
   description: "This is pricing page description",
 };
 

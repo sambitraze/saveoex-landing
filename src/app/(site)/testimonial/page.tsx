@@ -3,7 +3,7 @@ import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FAQ Page | Saveox",
+  title: "FAQ Page | Saveoex",
   description: "This is contact page description",
 };
 

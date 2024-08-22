@@ -4,7 +4,7 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Grids | Saveox",
+  title: "Blog Grids | Saveoex",
   description: "Blog grids page description",
 };
 

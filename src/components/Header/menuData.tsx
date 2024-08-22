@@ -25,6 +25,12 @@ const menuData: Menu[] = [
     path: "/contact",
     newTab: false,
   },
+  {
+    id: 5,
+    title: "Vendor",
+    path: "https://dashboard.saveoex.com",
+    newTab: true,
+  },
   // {
   //   id: 5,
   //   title: "Blog",

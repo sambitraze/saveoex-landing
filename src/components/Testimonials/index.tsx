@@ -6,28 +6,28 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Shreyansh",
-    designation: "user",
+    designation: "Customer",
     content:
       "Saveoex has completely changed the way I shop! I’m saving money on everything, from my morning coffee to weekend getaways.",
-    image: "/images/testimonials/default.jpeg",
+    image: "/images/testimonials/user1.jpg",
     star: 5,
   },
   {
     id: 1,
     name: "Anusha",
-    designation: "user",
+    designation: "Customer",
     content:
       "I love how easy it is to use. No hassle, just savings. Highly recommend!",
-    image: "/images/testimonials/default.jpeg",
+    image: "/images/testimonials/user2.jpg",
     star: 5,
   },
   {
     id: 1,
     name: "Dhirendra",
-    designation: "user",
+    designation: "Customer",
     content:
       "The best part about Saveoex? The variety of deals! Whether I’m shopping locally or traveling, there’s always a discount waiting for me.",
-    image: "/images/testimonials/default.jpeg",
+    image: "/images/testimonials/user3.jpg",
     star: 5,
   },
 ];

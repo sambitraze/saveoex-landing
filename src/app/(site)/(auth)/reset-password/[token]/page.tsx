@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Reset Password | Saveox",
+  title: "Reset Password | Saveoex",
 };
 
 const ResetPasswordPage = ({ params }: { params: { token: string } }) => {
