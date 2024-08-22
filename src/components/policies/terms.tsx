@@ -34,13 +34,13 @@ const TnC = () => {
             <li>
               <strong>Affiliate</strong> means an entity that controls, is
               controlled by or is under common control with a party, where
-              "control" means ownership of 50% or more of the shares, equity
+              &quot;control&quot; means ownership of 50% or more of the shares, equity
               interest, or other securities entitled to vote for election of
               directors or other managing authority.
             </li>
             <li>
-              <strong>Company</strong> (referred to as either "the Company",
-              "We", "Us" or "Our" in this Agreement) refers to SAVEOEX SALES
+              <strong>Company</strong> (referred to as either &quot;the Company&quot;,
+                &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to SAVEOEX SALES
               PRIVATE LIMITED, BLDG NO. C/3 BLOCK NO 401, LOK EVEREST JSD ROAD,
               Mumbai, Mumbai, Mumbai- 400080, Maharashtra.
             </li>
@@ -86,7 +86,7 @@ const TnC = () => {
           <p>
             Our Service allows You to post, link, store, share, and otherwise
             make available certain information, text, graphics, videos, or other
-            material ("Content"). You are responsible for the Content that You
+            material (&quot;Content&quot;). You are responsible for the Content that You
             post on or through the Service, including its legality, reliability,
             and appropriateness.
           </p>
@@ -133,8 +133,8 @@ const TnC = () => {
           </p>
           <p>
             We will let You know via email and/or a prominent notice on Our
-            Service, prior to the change becoming effective and update the "Last
-            updated" date at the top of this Terms and Conditions.
+            Service, prior to the change becoming effective and update the &quot;Last
+            updated&quot; date at the top of this Terms and Conditions.
           </p>
           <p>
             You are advised to review these Terms and Conditions periodically
