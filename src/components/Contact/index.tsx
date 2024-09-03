@@ -83,7 +83,7 @@ const Contact = () => {
                   <input
                     type="text"
                     name="fullName"
-                    placeholder="Kunal"
+                    placeholder=""
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
@@ -97,7 +97,7 @@ const Contact = () => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="kunal@yourmail.com"
+                    placeholder=""
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
@@ -111,7 +111,7 @@ const Contact = () => {
                   <input
                     type="text"
                     name="phone"
-                    placeholder="+91 1254 5211 55"
+                    placeholder=""
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
@@ -125,7 +125,7 @@ const Contact = () => {
                   <textarea
                     name="message"
                     rows={1}
-                    placeholder="type your message here"
+                    placeholder=""
                     className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   ></textarea>
                 </div>
