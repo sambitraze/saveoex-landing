@@ -15,7 +15,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Saveoex",
-  description: "Free Next.js SaaS Boilerplate and Starter Kit designed and built for SaaS startups. It comes with all necessary integrations, pages, and components you need to launch a feature-rich SaaS websites.",
+  description: "Unlock Endless Savings with Saveoex! Starting at just Rs 29 per month. Say goodbye to overspending! Saveoex brings you unbeatable discounts on local and national brands, all in one affordable subscription. Your savings journey starts here. Join now and experience the freedom of limitless savings!",
 };
 
 export default function Home() {
