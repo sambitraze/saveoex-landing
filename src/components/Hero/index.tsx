@@ -242,11 +242,11 @@ const Hero = () => {
                     src="/images/hero/hero.svg"
                     alt="hero"
                     className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
-                    width={300}
-                    height={300}
+                    width={450}
+                    height={450}
                   />
                 </div>
-                <div className="absolute -left-9 bottom-0 z-[-1]">
+                <div className="hidden md:block absolute -left-9 bottom-0 z-[-1]">
                   <svg
                     width="134"
                     height="106"
@@ -816,7 +816,7 @@ const Hero = () => {
                     />
                   </svg>
                 </div>
-                <div className="absolute -right-6 -top-6 z-[-1]">
+                <div className="hidden md:block absolute -right-6 -top-6 z-[-1]">
                   <svg
                     width="134"
                     height="106"

@@ -44,10 +44,10 @@ const PricingBox = ({ product }: { product: Price }) => {
               maximumFractionDigits: 2,
             })}
           </span>
-          <span className="text-base font-normal text-body-color dark:text-dark-6">
+          {/* <span className="text-base font-normal text-body-color dark:text-dark-6">
             {"   "}
             Per Month
-          </span>
+          </span> */}
         </h2>
 
         <div className="mb-[50px]">
@@ -60,14 +60,14 @@ const PricingBox = ({ product }: { product: Price }) => {
             ))}
           </div>
         </div>
-        <div className="w-full">
+        {/* <div className="w-full">
           <button
             onClick={handleSubscription}
             className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition duration-300 hover:bg-primary/90"
           >
             Purchase Now
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
